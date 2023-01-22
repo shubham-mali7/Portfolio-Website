@@ -10,18 +10,23 @@ body {
 }
 
 .sideBar {
-  background-color: rgb(163, 158, 158);
-  width: 12vw;
+  background-color: rgb(49, 48, 48);
+  /* width: 12vw; */
   height: 100vh;
+  width: 360px;
 }
 .sideBar nav {
   padding: 20px;
 }
 .sideBar nav li {
   list-style-type: none;
-  font-size: 1.295rem;
+  font-size: 1.195rem;
   font-weight: 500;
   padding: 30px 0;
+}
+.sideBar nav li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .main {
@@ -36,7 +41,7 @@ body {
 .infoContainer {
   /* background-color: rgb(255, 0, 157); */
   height: 60vh;
-  width: 80vw;
+  width: 70vw;
   margin: 85px auto;
   display: flex;
   justify-content: space-around;
@@ -60,11 +65,12 @@ body {
 }
 .moreabout {
   font-size: 15px;
+  margin-top: 20px;
 }
 .buttons {
   margin-top: 34px;
 }
-.buttons button {
+.btn {
   padding: 10px;
   border-radius: 3px;
   outline: none;
@@ -73,11 +79,46 @@ body {
   cursor: pointer;
   margin: 0px 5px;
 }
-.buttons button:hover {
+.btn:hover {
   text-decoration: underline;
   background-color: rgba(0, 0, 0, 0.65);
 }
 
+.btn-sm {
+  font-size: 13px;
+  padding: 6px 8px;
+  border-radius: 3px;
+  margin: 12px 0 0 0;
+}
 .devPic img {
   height: 60vh;
+}
+
+.contactForm {
+  /* padding: 144px 34px; */
+  padding: 30px;
+}
+.contactForm h2 {
+  padding: 12px 0;
+}
+.boxStyle {
+  width: 25vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+  /* margin: 6px 0 0 0; */
+}
+.directionCol {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.frmpadding {
+  padding: 10px 0;
+}
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 0;
 }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Shubham Mali - Web Developer | Programmer | AI Enthusiast</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sideBar">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <li><a href="/services.html"> Services</a></li>
+            <li><a href="/blog.html"> Blog</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="contactForm">
+          <h2>Contact Me for Work/General Enquiries</h2>
+          <form>
+            <div class="mb-3 directionCol">
+              <label for="clientName" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control boxStyle"
+                id="clientName"              />
+            </div>
+            <div class="mb-3 directionCol">
+              <label for="clientProfession" class="form-label">Profession</label>
+              <input
+                type="text"
+                class="form-control boxStyle"
+                id="clientProfession"
+              />
+            </div>
+            <div class="mb-3 directionCol">
+              <label for="clientEmail" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control boxStyle"
+                id="clientEmail"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text directionCol">
+                We'll never share your email and phone with anyone else.
+              </div>
+            </div>
+            <div class="mb-3 directionCol">
+              <label for="clientPhone" class="form-label">Phone Number</label>
+              <input type="phone" class="form-control boxStyle" id="clientPhone" />
+            </div>
+            <div class="mb-3 form-check frmpadding">
+              <input type="checkbox" class="form-check-input" id="isClient" />
+              <label class="form-check-label" for="isClient"></label>
+                I want you to Collab for a project with me!</label
+              >
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
