@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #fbfbfb;
 }
 
 .sideBar {
@@ -173,14 +174,42 @@ body {
   background-color: red;
 }
 .projectContainer {
-  width: 90%;
-  border: 2px solid red;
+  width: 96%;
+  /* border: 2px solid red; */
   /* height: 500px; */
   display: inline-block;
+  margin-bottom: 3%;
 }
 .projectBox {
-  width: 50%;
-  border: 1px solid violet;
-  height: 200px;
+  width: 45%;
+  /* border: 1px solid violet; */
+  height: 280px;
   float: left;
+  margin-left: 3%;
+  margin-top: 2%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+.prjImage {
+  width: 100%;
+  height: 75%;
+}
+.prjImage img {
+  width: 100%;
+  height: 100%;
+}
+.prjLink {
+  width: 100%;
+  height: 20%;
+  /* background-color: red; */
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prjbtn {
+  color: #fff;
+  text-decoration: none;
 }
