@@ -14,7 +14,9 @@ body {
   background-color: rgb(49, 48, 48);
   /* width: 12vw; */
   height: 100vh;
-  width: 360px;
+  /* width: 360px; */
+  transition: transform 0.3s ease-in;
+  position: absolute;
 }
 .sideBar nav {
   padding: 20px;
@@ -98,6 +100,7 @@ body {
 .contactForm {
   /* padding: 144px 34px; */
   padding: 30px;
+  margin: 0 100px;
 }
 .contactForm h2 {
   padding: 12px 0;
@@ -127,12 +130,17 @@ body {
 .blogItem {
   margin: 20px;
 }
+.blogContainer {
+  margin: 0 100px;
+}
 .blogContainer h1 {
   margin: 23px;
 }
 /* .blogItem p {
 } */
-
+.intro {
+  margin: 0 100px;
+}
 .intro h2 {
   margin: 12px 12px;
 }
@@ -213,19 +221,53 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.ham {
+  margin-left: 10px;
+}
+.cross {
+  margin-left: 110px;
+}
+
+.sideBarGo {
+  position: absolute;
+  transform: translate(-400px, 0px);
+}
 
 @media only screen and (max-width: 1075px) {
   /* body {
     background-color: red;
   } */
-  .sideBar{
+  /* .sideBar{
     position: absolute;
     transform: translate(-400px, 0px);
-  }
+  } */
   .main {
     padding: 20px;
   }
+  .devPic {
+    display: none;
+  }
   .infoContainer {
     flex-wrap: wrap;
+  }
+  .intro {
+    margin: 20px 0px;
+  }
+  .projectBox {
+    width: 89vw;
+    height: 250px;
+    margin-top: 5%;
+  }
+  .blogContainer {
+    margin: 20px 0px;
+  }
+  .contactForm {
+    margin: 20px 0px;
   }
 }
